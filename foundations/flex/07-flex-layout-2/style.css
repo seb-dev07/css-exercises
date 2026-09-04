@@ -35,6 +35,10 @@ ul{
   gap: 8px;
 }
 
+li {
+  margin-bottom: 16px;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -53,8 +57,7 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 16px;
-  height: 200px;
-  flex: 1 0 250px;
+  width: 300px;
   overflow:hidden;
 }
 
@@ -62,10 +65,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
-  flex: 1 1 200px;
-  gap: 24px;
+  gap: 32px;
 }
 
 .main-container {
   display: flex;
+  flex-grow: 1;
 }
